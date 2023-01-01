@@ -1,4 +1,3 @@
-
 import { Tooltip } from '@mui/material';
 import React from 'react'
 import './About.css';

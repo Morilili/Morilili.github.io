@@ -6,19 +6,16 @@ import Lofi from '../components/Lofi';
 import { Link } from 'react-router-dom';
 
 function Theme(props) {
-  
-  
   // function that checks if the window size is valid
   // if yes, it enables the clickable elements. if no , it "hides" them
   // thus disabling them
   const correctScreenSize = () => {
-    const winw = window.outerWidth;
+    const winw = window.innerWidth;
     const winh = window.outerHeight;
     const screenw = window.screen.availWidth;
     const screenh = window.screen.availHeight;
     
     var allc = document.getElementsByClassName('components');
-    alert(winw)
     if (winw !== screenw || winh !== screenh) {
       for (var i = 0; i < allc.length; i++) {
         allc[i].style.visibility = 'hidden';
