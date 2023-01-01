@@ -1,0 +1,65 @@
+.top-container{
+    display: flexbox;
+    align-items: stretch;
+    background-image: url('../assets/night-1.png');
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px 5px  inset;
+}
+
+#about{
+    
+    height: 150vh;
+    border: 5px solid;
+    margin: auto;
+    width: 85%;
+    padding: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+
+#name-about{
+    /* flex-basis: 10vw; */
+    height: fit-content;
+    flex: 1.5;
+    text-align: center;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(220, 142, 23));
+    border-color: black;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#pp_container{
+    flex:1;
+    position: relative;
+}
+
+
+#pic{
+    margin-left: 20%;
+    margin-top: 4%;
+    width: 70%;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#pic2{
+    margin-left: 20%;
+    margin-top: 4%;
+    width: 70%;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    opacity: 0;
+    transition: all 0.7s ease;
+    
+}
+#pic2:hover{
+    opacity:1;
+    
+}
+

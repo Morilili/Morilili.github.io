@@ -1,0 +1,77 @@
+.top-night{
+  height: 123vh;
+  background: url('../assets/night-1.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background-image 1s linear;
+  -moz-transition: background-image 1s linear;
+  -o-transition: background-image 1s linear;
+  transition: background-image 1s linear;
+  box-shadow: 0 0 5px 5px  inset;
+}
+  
+.top-day{
+  height:123vh;
+  background-image: url('../assets/day.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background-image 1s linear;
+  -moz-transition: background-image 1s linear;
+  -o-transition: background-image 1s linear;
+  transition: background-image 1s linear;
+  box-shadow: 0 0 5px 5px  inset;
+}
+
+#light{
+  position:absolute;
+  height: 5%;
+  width: 5%;
+  left: 25%;
+  top: 23%;
+  transform: skewX(-50deg);
+  background-color: yellow;
+  opacity: 0;
+  filter: blur(1.5rem);
+}
+
+#light:hover{
+  opacity: 1.0;
+}
+
+#projects{
+  width: 18vw;
+  height: 14vh;
+  margin-left: 24vw;
+  margin-top: 40vh;
+  transform: skewX(30deg);
+  background-color: yellow;
+  opacity: 0;
+  filter: blur(1.5rem);
+  
+}
+
+#projects:hover{
+  opacity: 0.5;
+}
+
+#youtube{
+  
+  width: 10vw;
+  height: 27vh;
+  
+  margin-left: 22vw;
+  margin-top: 15vh;
+  background-color: yellow;
+  opacity: 0;
+  filter: blur(1.5rem);
+}
+
+#youtube:hover{
+  opacity: 0.5;
+}

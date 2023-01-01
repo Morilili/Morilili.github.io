@@ -1,0 +1,16 @@
+#lofi{
+    
+    position: absolute;
+    width: 7.5vw;
+    height: 14vh;
+    margin-top: 23vh;
+    margin-left: 39vw;
+    border-radius: 100%;
+    opacity: 0;
+    background-color: yellow;
+    filter: blur(1.5rem);
+}
+
+#lofi:hover{
+    opacity: 0.7;
+}

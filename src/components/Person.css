@@ -1,0 +1,15 @@
+#Morris{
+    width: 20vw;
+    height: 45vh;
+    margin-top: 11vh;
+    margin-left: 45vw;
+    opacity: 0.5;
+    border-radius: 100%;
+    background-color: yellow;
+    opacity: 0;
+    filter: blur(1.5rem);
+}
+
+#Morris:hover{
+    opacity: 0.3;
+}

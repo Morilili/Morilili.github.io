@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    height: 30vmin;
+    color: white;
+    background-color:rgb(32, 35, 42);
+    text-align: center;
+}
+.pages{
+    flex: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vmin;
+    text-align: left;
+    margin-top: 0vh;
+    border-left: 0;
+    border-top: 0vw;
+    border-bottom: 0vw;
+    border-style: dotted;
+}
+
+.links:hover{
+    color: rgb(55, 55, 255);
+    text-decoration: underline;
+}
+
+.contacts{
+    flex:2;
+    font-size: 3vmin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

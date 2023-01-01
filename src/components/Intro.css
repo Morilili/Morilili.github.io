@@ -1,0 +1,25 @@
+#box{
+    /* display: flexbox; */
+    height:fit-content;
+    width: 35vw;
+    /* position: absolute; */
+    text-align: center;
+    opacity: 0.75;
+    background-color:beige;
+    margin-top: -18vh;
+    margin-left: 8vw;
+    border-radius: 1vh;
+    border: thick double black;
+}
+
+#name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vh;
+    font-size: 5vmin;
+}
+
+#para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vmin;
+    margin-top: -2vh;
+}
