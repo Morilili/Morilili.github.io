@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.90fdc6ba.css",
-    "main.js": "/static/js/main.ad261001.js",
-    "static/js/787.2ede9b46.chunk.js": "/static/js/787.2ede9b46.chunk.js",
-    "static/media/night-1.png": "/static/media/night-1.1e796eeac4eecd3cfdad.png",
-    "static/media/day.png": "/static/media/day.f01a3e6f43a8a869f7c4.png",
-    "static/media/lofi.mp3": "/static/media/lofi.57d5e940c080cedb5166.mp3",
-    "static/media/IMG-8255.JPG": "/static/media/IMG-8255.828e9a81b4a73cc9e715.JPG",
-    "static/media/morris_pro.jfif": "/static/media/morris_pro.6ba6165a6b527edb5444.jfif",
-    "index.html": "/index.html",
-    "main.90fdc6ba.css.map": "/static/css/main.90fdc6ba.css.map",
-    "main.ad261001.js.map": "/static/js/main.ad261001.js.map",
-    "787.2ede9b46.chunk.js.map": "/static/js/787.2ede9b46.chunk.js.map"
+    "main.css": "/Morilili.github.io/static/css/main.de10dc71.css",
+    "main.js": "/Morilili.github.io/static/js/main.55b403db.js",
+    "static/js/787.2ede9b46.chunk.js": "/Morilili.github.io/static/js/787.2ede9b46.chunk.js",
+    "static/media/night-1.png": "/Morilili.github.io/static/media/night-1.1e796eeac4eecd3cfdad.png",
+    "static/media/day.png": "/Morilili.github.io/static/media/day.f01a3e6f43a8a869f7c4.png",
+    "static/media/lofi.mp3": "/Morilili.github.io/static/media/lofi.57d5e940c080cedb5166.mp3",
+    "static/media/IMG-8255.JPG": "/Morilili.github.io/static/media/IMG-8255.828e9a81b4a73cc9e715.JPG",
+    "static/media/morris_pro.jfif": "/Morilili.github.io/static/media/morris_pro.6ba6165a6b527edb5444.jfif",
+    "index.html": "/Morilili.github.io/index.html",
+    "main.de10dc71.css.map": "/Morilili.github.io/static/css/main.de10dc71.css.map",
+    "main.55b403db.js.map": "/Morilili.github.io/static/js/main.55b403db.js.map",
+    "787.2ede9b46.chunk.js.map": "/Morilili.github.io/static/js/787.2ede9b46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90fdc6ba.css",
-    "static/js/main.ad261001.js"
+    "static/css/main.de10dc71.css",
+    "static/js/main.55b403db.js"
   ]
 }
