@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d46024ea.css",
-    "main.js": "/static/js/main.bbd5e4c9.js",
-    "static/js/787.2ede9b46.chunk.js": "/static/js/787.2ede9b46.chunk.js",
-    "static/media/night-1.png": "/static/media/night-1.1e796eeac4eecd3cfdad.png",
-    "static/media/day.png": "/static/media/day.f01a3e6f43a8a869f7c4.png",
-    "static/media/lofi.mp3": "/static/media/lofi.57d5e940c080cedb5166.mp3",
-    "static/media/IMG-8255.JPG": "/static/media/IMG-8255.828e9a81b4a73cc9e715.JPG",
-    "static/media/morris_pro.jpg": "/static/media/morris_pro.f926c8e4fc1beba0f246.jpg",
-    "index.html": "/index.html",
-    "main.d46024ea.css.map": "/static/css/main.d46024ea.css.map",
-    "main.bbd5e4c9.js.map": "/static/js/main.bbd5e4c9.js.map",
-    "787.2ede9b46.chunk.js.map": "/static/js/787.2ede9b46.chunk.js.map"
+    "main.css": "/Morilili.github.io/static/css/main.dc859de5.css",
+    "main.js": "/Morilili.github.io/static/js/main.4e757f27.js",
+    "static/media/night-1.png": "/Morilili.github.io/static/media/night-1.1e796eeac4eecd3cfdad.png",
+    "static/media/day.png": "/Morilili.github.io/static/media/day.f01a3e6f43a8a869f7c4.png",
+    "static/media/lofi.mp3": "/Morilili.github.io/static/media/lofi.57d5e940c080cedb5166.mp3",
+    "static/media/IMG-8255.JPG": "/Morilili.github.io/static/media/IMG-8255.828e9a81b4a73cc9e715.JPG",
+    "static/media/morris_pro.jpg": "/Morilili.github.io/static/media/morris_pro.f926c8e4fc1beba0f246.jpg",
+    "index.html": "/Morilili.github.io/index.html",
+    "main.dc859de5.css.map": "/Morilili.github.io/static/css/main.dc859de5.css.map",
+    "main.4e757f27.js.map": "/Morilili.github.io/static/js/main.4e757f27.js.map"
   },
   "entrypoints": [
-    "static/css/main.d46024ea.css",
-    "static/js/main.bbd5e4c9.js"
+    "static/css/main.dc859de5.css",
+    "static/js/main.4e757f27.js"
   ]
 }
