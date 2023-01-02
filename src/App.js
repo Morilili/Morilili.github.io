@@ -1,8 +1,7 @@
-import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './components/Footer';
-import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -11,15 +10,13 @@ function App() {
   };
   
   return (
-    <div className="App">
-      <HashRouter>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="about" element={<About />} />
         </Routes>
         <Footer />
-      </HashRouter>
-    </div>
+      </Router>
   );
 }
 
