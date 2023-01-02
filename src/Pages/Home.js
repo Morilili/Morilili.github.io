@@ -42,7 +42,14 @@ function Theme(props) {
   
   //code below are responsible for switching the "themes"(background)
   //one of the useEffect maintains the state "theme"
+
+  //this is reponsible for initial state when 'theme' is null
+  if (window.localStorage.getItem('theme') === null) {
+    window.localStorage.setItem('theme', 'night');
+  }
+ 
   const [theme, setTheme] = useState(window.localStorage.getItem('theme'));
+  
   const toggleTheme = () => {
     if (theme === 'night') {
       setTheme('day');
