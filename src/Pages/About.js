@@ -14,7 +14,7 @@ function About() {
           </h1>
           
           <div id='pp_container'>
-            <img id='pic' alt='1' src={require("../assets/morris_pro.jfif")}></img>
+            <img id='pic' alt='1' src={require("../assets/morris_pro.jpg")}></img>
             <Tooltip title='Moments before disaster (☉_☉)'>
               <img id='pic2' class="hover_img" alt='2' src={require("../assets/IMG-8255.JPG")}></img>
             </Tooltip>
