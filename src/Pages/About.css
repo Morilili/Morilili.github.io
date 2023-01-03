@@ -9,7 +9,7 @@
 }
 
 #about{
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 150vh;
     border: 5px solid;
     margin: auto;
@@ -23,42 +23,43 @@
 
 
 #name-about{
-    /* flex-basis: 10vw; */
     height: fit-content;
-    flex: 1.5;
+    width:30vw;
+    margin-left: 11vw;
+    margin-top: 6vh;
     text-align: center;
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(220, 142, 23));
     border-color: black;
     border-style: solid;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-#pp_container{
-    flex:1;
-    position: relative;
-}
-
-
-#pic{
-    margin-left: 20%;
-    margin-top: 4%;
-    width: 70%;
-    position: absolute;
-    border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-#pic2{
-    margin-left: 20%;
-    margin-top: 4%;
-    width: 70%;
-    position: absolute;
-    border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    opacity: 0;
-    transition: all 0.7s ease;
+.typed-box{
+    float: left;
+    margin-left: 4vw;
+    width: 40vw;
+    height: 35vh;
+    display: flex;
+    text-align: center;
     
 }
-#pic2:hover{
+#typed{
+    font-size: 8vh;
+}
+.pic{
+    
+    margin-left: 10vw;
+    margin-top: -13vh;
+    width: 25vw;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.hover_img{
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+.hover_img:hover{
     opacity:1;
     
 }
