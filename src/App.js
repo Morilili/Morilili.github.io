@@ -3,16 +3,16 @@ import About from './pages/About';
 import Footer from './components/Footer';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-
 function App() {
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
+  //this is responsible for reload of pages because React Router does not do that (⩺_⩹)
+  window.onhashchange = function () {
+    window.location.reload();
   };
   
   return (
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="about" element={<About />} />
         </Routes>
         <Footer />
