@@ -10,6 +10,7 @@
   -o-transition: background-image 1s linear;
   transition: background-image 1s linear;
   box-shadow: 0 0 5px 5px  inset;
+  pointer-events: none;
 }
   
 .top-day{
@@ -26,6 +27,7 @@
   -o-transition: background-image 1s linear;
   transition: background-image 1s linear;
   box-shadow: 0 0 5px 5px  inset;
+  pointer-events: none;
 }
 
 #light{
@@ -38,6 +40,7 @@
   background-color: yellow;
   opacity: 0;
   filter: blur(1.5rem);
+  pointer-events: fill;
 }
 
 #light:hover{
@@ -53,7 +56,7 @@
   background-color: yellow;
   opacity: 0;
   filter: blur(1.5rem);
-  
+  pointer-events: fill;
 }
 
 #projects:hover{
@@ -61,7 +64,6 @@
 }
 
 #youtube{
-  
   width: 10vw;
   height: 27vh;
   
@@ -70,6 +72,7 @@
   background-color: yellow;
   opacity: 0;
   filter: blur(1.5rem);
+  pointer-events: fill;
 }
 
 #youtube:hover{

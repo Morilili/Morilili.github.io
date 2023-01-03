@@ -9,6 +9,7 @@ function Theme(props) {
   // function that checks if the window size is valid
   // if yes, it enables the clickable elements. if no , it "hides" them
   // thus disabling them
+
   const correctScreenSize = () => {
     const winw = window.innerWidth;
     const winh = window.outerHeight;
@@ -17,13 +18,18 @@ function Theme(props) {
     
     var allc = document.getElementsByClassName('components');
     if (winw !== screenw || winh !== screenh) {
-      for (var i = 0; i < allc.length; i++) {
-        allc[i].style.visibility = 'hidden';
+      
+      
+      // message only for home screen
+      if (window.location.hash === '#/') {
+        // could be made into an async function to avoid elements showing on the
+        // screen when the alert is popped up
+        for (var i = 0; i < allc.length; i++) {
+          allc[i].style.visibility = 'hidden';
+        }
+        alert("Please fill window to full screen for picture navigation to work");
       }
-
-      // could be made into an async function to avoid elements showing on the
-      // screen when the alert is popped up
-      alert("Please fill window to full screen for picture navigation to work");
+      
     }
     else {
       for (var j = 0; j < allc.length; j++) {
@@ -35,11 +41,11 @@ function Theme(props) {
   // checks for window size using function above whenever resize event
   // happens or window loads happen
   var doit;
-  window.onresize = window.onload = function(){
+  window.onresize = window.onload = function () {
     clearTimeout(doit);
     doit = setTimeout(correctScreenSize, 100);
   };
-  
+
   //code below are responsible for switching the "themes"(background)
   //one of the useEffect maintains the state "theme"
 
@@ -66,12 +72,13 @@ function Theme(props) {
     window.localStorage.setItem('theme', theme);
   }, [theme]);
 
+
   return (
     <div className={`top-${theme}`}>
       <br />
       <button className='components' id='light' onClick={toggleTheme}></button>
       
-      <Link className='components' reloadDocument to='/about'>
+      <Link className='components' onClick={() => window.scrollTo(0, 0)} reloadDocument to='/about'>
         <Person />
       </Link>
 

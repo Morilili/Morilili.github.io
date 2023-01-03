@@ -8,6 +8,7 @@
     background-color: yellow;
     opacity: 0;
     filter: blur(1.5rem);
+    pointer-events: fill;
 }
 
 #Morris:hover{

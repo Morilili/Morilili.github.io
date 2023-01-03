@@ -9,6 +9,7 @@
     opacity: 0;
     background-color: yellow;
     filter: blur(1.5rem);
+    pointer-events: fill;
 }
 
 #lofi:hover{
