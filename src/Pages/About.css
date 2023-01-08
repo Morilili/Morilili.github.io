@@ -1,5 +1,6 @@
+/* *{border-style: dashed;} */
 .top-container{
-    display: flexbox;
+    text-align:center ;
     align-items: stretch;
     background-image: url('../assets/night-1.png');
     background-size: cover;
@@ -10,7 +11,8 @@
 
 #about{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 150vh;
+    display: inline-block;
+    height: fit-content;
     border: 5px solid;
     margin: auto;
     width: 85%;
@@ -21,6 +23,9 @@
     border-radius: 25px;
 }
 
+#description{
+    float: left;
+}
 
 #name-about{
     height: fit-content;
@@ -34,22 +39,23 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .typed-box{
-    float: left;
-    margin-left: 4vw;
-    width: 40vw;
-    height: 35vh;
-    display: flex;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    width: 40vmax;
+    height: 25vmin;
+    display: block;
     text-align: center;
+    word-wrap: break-word;
     
 }
 #typed{
-    font-size: 8vh;
+    font-size: 8vmin;
 }
 .pic{
     
-    margin-left: 10vw;
-    margin-top: -13vh;
-    width: 25vw;
+    margin-left: 13vmax;
+    margin-top: -44vmin;
+    width: 25vmax;
     position: absolute;
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -60,7 +66,19 @@
     transition: all 0.7s ease;
 }
 .hover_img:hover{
-    opacity:1;
-    
+    opacity:1;   
 }
 
+#textbox{
+    margin-top: 10vmax;
+    font-size: 3vmin;
+    width:inherit;
+    word-wrap: break-word;
+    text-align: justify;
+}
+#work-term{
+    margin-top: 5vmax;
+    font-weight: bold;
+    font-size: 3vmin;
+    text-align: center;
+}
