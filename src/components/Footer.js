@@ -20,7 +20,10 @@ function Footer() {
             <li className='links'>About</li>
           </Link>
           
-          <li>Projects (Coming soon)</li>
+          <Link onClick={() =>window.scrollTo(0, 0)} reloadDocument to='/projects' style={{color:"white",textDecorationLine:'none'}}>
+            <li className='links'>Projects</li>
+          </Link>
+            
         </ul>
       </div>
       <div className='contacts'>

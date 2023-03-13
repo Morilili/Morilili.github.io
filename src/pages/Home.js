@@ -90,9 +90,9 @@ function Theme(props) {
       
       <Lofi className='components' />
       
-      <a href='https://github.com/Morilili/' target='_blank' rel="noreferrer">
+      <Link className='components' onClick={() => window.scrollTo(0, 0)} reloadDocument to='/projects'>
         <button className='components' id='projects'></button>
-      </a>
+      </Link>
 
     </div>
   )
