@@ -7,9 +7,9 @@ function About() {
   return (
     <div className='top-container'>
       <br />
-      <div id='about'>
-        <div id='description'>
-          <h1 id='name-about'>
+      <div className='background'>
+        <div className='description'>
+          <h1 className='pageTitle'>
             Morris Ho
           </h1>
           <p className='typed-box'>

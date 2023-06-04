@@ -9,7 +9,7 @@
     box-shadow: 0 0 5px 5px  inset;
 }
 
-#about{
+.background{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     height: fit-content;
@@ -23,21 +23,10 @@
     border-radius: 25px;
 }
 
-#description{
+.description{
     float: left;
 }
 
-#name-about{
-    height: fit-content;
-    width:30vw;
-    margin-left: 11vw;
-    margin-top: 6vh;
-    text-align: center;
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(220, 142, 23));
-    border-color: black;
-    border-style: solid;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
 .typed-box{
     margin-top: 8vh;
     margin-left: 3vw;
@@ -81,4 +70,9 @@
     font-weight: bold;
     font-size: 3vmin;
     text-align: center;
+}
+
+.description .pageTitle{
+    margin-left: 11vw;
+    margin-top: 6vh;
 }
