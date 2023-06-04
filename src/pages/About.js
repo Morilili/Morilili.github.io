@@ -38,10 +38,10 @@ function About() {
   <p>Apart from my academics, I enjoy playing all kinds of sports but soccer is my favourite. I have also been playing the flute for a long time and love making and lisening to all sorts of music (as you should be able to tell if you have throughly explored my home page :p) Aspiring to pursue a career in Software Development after graduation, and therefore seeking co-op and internship opportunities in related fields.</p>
           </p>
           </div>
-          <div id='work-term'>
+          {/* <div id='work-term'>
             <p>Summer 2023 Co-op Term: TBD</p>
           </div>
-            
+             */}
         </div>
       </div>
       <br/>
