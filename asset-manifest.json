@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c06c2fd.css",
-    "main.js": "/static/js/main.f953e399.js",
+    "main.css": "/static/css/main.a8546fb7.css",
+    "main.js": "/static/js/main.f67e08fd.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/night-1.png": "/static/media/night-1.1e796eeac4eecd3cfdad.png",
     "static/media/day.png": "/static/media/day.f01a3e6f43a8a869f7c4.png",
+    "static/media/website.png": "/static/media/website.380b6a895f3cfb3ea3d5.png",
     "static/media/lofi.mp3": "/static/media/lofi.57d5e940c080cedb5166.mp3",
+    "static/media/clubify.png": "/static/media/clubify.0426fa87ef8eee013d98.png",
+    "static/media/minesweeper.jpg": "/static/media/minesweeper.d45d8c86b23ff28b3062.jpg",
     "static/media/IMG-8255.JPG": "/static/media/IMG-8255.828e9a81b4a73cc9e715.JPG",
+    "static/media/courseplanner.jpg": "/static/media/courseplanner.f8672ac810f50e2274a9.jpg",
     "static/media/morris_pro.jpg": "/static/media/morris_pro.f926c8e4fc1beba0f246.jpg",
+    "static/media/mp3.png": "/static/media/mp3.f7345aa3c2024a8aae66.png",
     "index.html": "/index.html",
-    "main.3c06c2fd.css.map": "/static/css/main.3c06c2fd.css.map",
-    "main.f953e399.js.map": "/static/js/main.f953e399.js.map",
+    "main.a8546fb7.css.map": "/static/css/main.a8546fb7.css.map",
+    "main.f67e08fd.js.map": "/static/js/main.f67e08fd.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c06c2fd.css",
-    "static/js/main.f953e399.js"
+    "static/css/main.a8546fb7.css",
+    "static/js/main.f67e08fd.js"
   ]
 }
